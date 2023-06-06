@@ -1,10 +1,8 @@
 # [Web Scraping](https://github.com/amido84/Webscrapping/blob/main/Webscrapping.ipynb)
 
 
-Perform web scraping on 10 pages from www.indeed.com to gather job listings. Create a pandas DataFrame that includes the following information: job title, company name, location, and job description summary.
+I performed web scraping using Selenium on ten pages from www.indeed.com to collect job listings. Based on the gathered data, I constructed a Pandas data frame containing the following details: job title, company name, location, and a summary of the job description.
 
-Additionally, include indicator columns with Boolean values (True/False) to indicate the presence of specific keywords in the job description. The keywords to consider are Python, SQL, AWS, RESTFUL, Machine Learning, Deep Learning, Text Mining, NLP, SAS, Tableau, Sagemaker, TensorFlow, and Spark.
+Furthermore, I incorporated additional indicator columns in the data frame, assigning Boolean values (True/False) to indicate the presence of specific keywords within the job descriptions. The keywords considered include Python, SQL, AWS, RESTFUL, Machine Learning, Deep Learning, Text Mining, NLP, SAS, Tableau, Sagemaker, TensorFlow, and Spark.
 
-Please note that the last page to scrape will have the URL: https://www.indeed.com/jobs?q=data+scientist&l=CO&start=90.
-
-## [web_scraping_notebook](https://github.com/amido84/Webscrapping/blob/main/Webscrapping.ipynb)
+### [web_scraping_notebook](https://github.com/amido84/Webscrapping/blob/main/Webscrapping.ipynb)
